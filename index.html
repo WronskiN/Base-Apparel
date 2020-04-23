@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <div class="main">
+
+    <nav class="nav">
+      <h1 class="logo">
+        <img class="logo__img" src="images/logo.svg" alt="base apparel logo">
+      </h1>
+    </nav>
+
+    <header class="header">
+    <picture class="header__img">
+      <source media="(min-width: 1024px)" srcset="images/hero-desktop.jpg">
+      <source srcset="images/hero-mobile.jpg">  
+      <img class="header__el" src="images/hero-desktop.jpg" alt="hero picture">
+    </picture>
+    </header>
+
+    <div class="jumbotron">
+      <h2 class="headline"><span class="headline--color">We're</span> coming soon</h2>
+      <p class="headtext">Hello fellow shoppers! We're currently building our    new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form class="form">
+        <label for="email" class="label">
+          <input type="email" id="email" class="input" placeholder="Email Address">
+          <p class="alert">Please provide a valid email</p>
+          <img class="icon__error" src="images/icon-error.svg" alt="">
+        </label>
+          <button class="btn" role="submit"><img src="images/icon-arrow.svg" alt=""></button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- We're coming soon
+
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+
+  Email Address -->
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="script.js"></script>
+</body>
+</html>
