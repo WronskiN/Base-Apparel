@@ -21,7 +21,7 @@ body {
   font-family: var(--main-fontFamily);
   font-size: var(--main-fontSize);
   background-color: hsl(0, 100%, 98%);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .main {
